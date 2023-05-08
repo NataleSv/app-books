@@ -1,0 +1,26 @@
+{
+  "name": "app-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataleSv/app-books"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Natalia Sorokina",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "eslint": "^8.40.0",
+    "rollup": "^3.21.5",
+    "rollup-plugin-import-css": "^3.2.1"
+  }
+}
